@@ -98,7 +98,7 @@ Resources:
   OpenshiftSSHSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
-      VpcId: vpc-f044368a
+      VpcId: vpc-259d9242
       GroupDescription: Openshift Security Group for Internal SSH
       Tags:
       - Key:  kubernetes.io/cluster/openshift
